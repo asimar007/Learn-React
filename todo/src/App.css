@@ -1,0 +1,9 @@
+.border-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 40px;
+}
+.board-container {
+  margin: 20px;
+}

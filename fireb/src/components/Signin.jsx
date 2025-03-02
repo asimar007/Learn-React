@@ -10,7 +10,7 @@ const Signin = () => {
 
   const signinUser = () => {
     signInWithEmailAndPassword(auth, email, password)
-      .then((value) => alert("User Signed in Successfully"))
+      .then(() => alert("User Signed in Successfully"))
       .catch((error) => alert(error.message));
   };
 
